@@ -1,39 +1,37 @@
-# 📚 GoodReads Quotes PDF Generator 📝
+# GoodReads Quotes PDF Generator
 
-This Google Colab script processes your GoodReads quotes, creates visualizations, and generates a formatted PDF. Perfect for book lovers and quote enthusiasts!
+A tool for exporting and visualising your highlighted quotes from [GoodReads](https://www.goodreads.com/). Cleans, sorts, and formats quotes into a printable PDF, with exploratory analysis of quoting habits by author, book, and word count.
 
-## 🌟 Features
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrKenReid/GoodReads-Quotes-PDF/blob/main/GoodReads_Quotes_PDF.ipynb)
 
-- 📊 Process and clean quotes from your GoodReads export
-- 🎨 Generate insightful visualizations of your quote collection
-- 📄 Create a professionally formatted PDF of your quotes
-- 🔧 Customizable sorting options and quote length limits
+## Techniques Demonstrated
 
-## 🚀 Getting Started
+| Category | Details |
+|---|---|
+| **Data Wrangling** | CSV ingestion, Unicode normalisation, HTML tag removal |
+| **Text Processing** | Quote cleaning, configurable sorting (random, author, title, length) |
+| **PDF Generation** | Custom `FPDF` subclass with alternating alignment, auto-pagination |
+| **Visualisation** | Seaborn histograms, horizontal bar charts, box plots |
+| **Best Practices** | Logging, pickle-based user options, docstrings throughout |
 
-1. 📥 Download your quotes from your GoodReads profile
-2. 📁 Upload the file as `goodreads_quotes_export.csv` to your Google Colab environment
-3. 🏃‍♂️ Run the script and watch the magic happen!
+## Using Your Own Data
 
-## 📊 Visualizations
+1. Go to your GoodReads profile and export your quotes via **My Quotes → Export**.
+2. Upload the resulting `goodreads_quotes_export.csv` to the Colab notebook's working directory (or mount Google Drive).
+3. Adjust the `sort_option` and `max_quote_length` parameters in the first cell to taste.
+4. Run all cells — a `quotes.pdf` file will be generated automatically.
 
-The script generates four types of visualizations:
+## Example Outputs
 
-1. 📏 Distribution of word counts in quotes
-2. 📈 Top 20 authors by average quote length
-3. 🏆 Top 20 authors by number of quotes
-4. 📊 Box plot of word count per author for top 20 authors
+| | |
+|---|---|
+| ![Word Count Distribution](img/plot_1.png) | ![Average Quote Length by Author](img/plot_2.png) |
+| ![Number of Quotes by Author](img/plot_3.png) | ![Word Count per Author Box Plot](img/plot_4.png) |
 
-## 🛠️ Customization
+## A Note on Quote Analysis
 
-You can customize the following options:
+The visualisations reveal interesting patterns in reading and highlighting habits. Authors with longer average quotes tend to be those whose prose style invites extended highlighting, while the word count distribution shows that most readers gravitate toward concise, pithy passages. The box plots expose the variance within prolific authors — some are consistently quoted at length, while others produce a mix of short and long highlights.
 
-- 🔄 Sorting method: random, author, title, or length
-- ✂️ Maximum quote length (set to 0 for no limit)
+## License
 
-## 📦 Requirements
-
-- pandas
-- matplotlib
-- seaborn
-- fpdf
+This project is licensed under [CC BY 4.0](LICENSE).
