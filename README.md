@@ -32,6 +32,10 @@ A tool for exporting and visualising your highlighted quotes from [GoodReads](ht
 
 The visualisations reveal interesting patterns in reading and highlighting habits. Authors with longer average quotes tend to be those whose prose style invites extended highlighting, while the word count distribution shows that most readers gravitate toward concise, pithy passages. The box plots expose the variance within prolific authors — some are consistently quoted at length, while others produce a mix of short and long highlights.
 
+## Related
+
+- [GoodReads-Analysis](https://github.com/DrKenReid/GoodReads-Analysis) — comprehensive analysis of reading habits from GoodReads export data (visualisation, NLP, ML)
+
 ## License
 
 This project is licensed under [CC BY 4.0](LICENSE).
