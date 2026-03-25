@@ -12,7 +12,7 @@ A tool for exporting and visualising your highlighted quotes from [GoodReads](ht
 | **Text Processing** | Quote cleaning, configurable sorting (random, author, title, length) |
 | **PDF Generation** | Custom `FPDF` subclass with alternating alignment, auto-pagination |
 | **Visualisation** | Seaborn histograms, horizontal bar charts, box plots |
-| **Best Practices** | Logging, pickle-based user options, docstrings throughout |
+| **Best Practices** | Logging, JSON-based user options, docstrings throughout |
 
 ## Using Your Own Data
 
