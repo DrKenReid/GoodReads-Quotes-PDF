@@ -14,10 +14,14 @@ A tool for exporting and visualising your highlighted quotes from [GoodReads](ht
 | **Visualisation** | Seaborn histograms, horizontal bar charts, box plots |
 | **Best Practices** | Logging, JSON-based user options, docstrings throughout |
 
+## Quick Start
+
+The notebook includes **sample data (571 quotes)** and runs out of the box — just click "Open in Colab" and run all cells.
+
 ## Using Your Own Data
 
 1. Go to your GoodReads profile and export your quotes via **My Quotes → Export**.
-2. Upload the resulting `goodreads_quotes_export.csv` to the Colab notebook's working directory (or mount Google Drive).
+2. Open the notebook in Colab — when prompted, upload your `goodreads_quotes_export.csv` (or press Ctrl+C to skip and use the sample data).
 3. Adjust the `sort_option` and `max_quote_length` parameters in the first cell to taste.
 4. Run all cells — a `quotes.pdf` file will be generated automatically.
 
