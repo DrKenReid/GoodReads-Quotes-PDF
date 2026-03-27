@@ -1,6 +1,18 @@
-# GoodReads Quotes PDF Generator
+# ⚠️ This project has been superseded
+
+> **This tool is now built into [GoodReads Analysis](https://github.com/DrKenReid/GoodReads-Analysis) as the Quotes Collection tab.**
+>
+> **[Try the live app →](https://goodreads-analysis.streamlit.app/)**
+>
+> The new version includes everything from this project plus: themed PDF/HTML/Markdown/text export, 4 color themes, custom accent colors, quote selection & filtering, sort order options, visualizations, and more — all in a web interface with no setup required.
+
+---
+
+# GoodReads Quotes PDF Generator (Archived)
 
 A tool for exporting and visualising your highlighted quotes from [GoodReads](https://www.goodreads.com/). Cleans, sorts, and formats quotes into a printable PDF, with exploratory analysis of quoting habits by author, book, and word count.
+
+> **Note:** The Colab notebook below still works if you prefer the notebook-based workflow.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrKenReid/GoodReads-Quotes-PDF/blob/main/GoodReads_Quotes_PDF.ipynb)
 
@@ -31,14 +43,6 @@ The notebook includes **sample data (571 quotes)** and runs out of the box — j
 |---|---|
 | ![Word Count Distribution](img/plot_1.png) | ![Average Quote Length by Author](img/plot_2.png) |
 | ![Number of Quotes by Author](img/plot_3.png) | ![Word Count per Author Box Plot](img/plot_4.png) |
-
-## A Note on Quote Analysis
-
-The visualisations reveal interesting patterns in reading and highlighting habits. Authors with longer average quotes tend to be those whose prose style invites extended highlighting, while the word count distribution shows that most readers gravitate toward concise, pithy passages. The box plots expose the variance within prolific authors — some are consistently quoted at length, while others produce a mix of short and long highlights.
-
-## Related
-
-- [GoodReads-Analysis](https://github.com/DrKenReid/GoodReads-Analysis) — comprehensive analysis of reading habits from GoodReads export data (visualisation, NLP, ML)
 
 ## License
 
