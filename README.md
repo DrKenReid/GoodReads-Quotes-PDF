@@ -1,6 +1,18 @@
-# GoodReads Quotes PDF Generator
+# ⚠️ This project has been superseded
+
+> **This tool is now built into [GoodReads Analysis](https://github.com/DrKenReid/GoodReads-Analysis) as the Quotes Collection tab.**
+>
+> **[Try the live app →](https://goodreads-analysis.streamlit.app/)**
+>
+> The new version includes everything from this project plus: themed PDF/HTML/Markdown/text export, 4 color themes, custom accent colors, quote selection & filtering, sort order options, visualizations, and more — all in a web interface with no setup required.
+
+---
+
+# GoodReads Quotes PDF Generator (Archived)
 
 A tool for exporting and visualising your highlighted quotes from [GoodReads](https://www.goodreads.com/). Cleans, sorts, and formats quotes into a printable PDF, with exploratory analysis of quoting habits by author, book, and word count.
+
+> **Note:** The Colab notebook below still works if you prefer the notebook-based workflow.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrKenReid/GoodReads-Quotes-PDF/blob/main/GoodReads_Quotes_PDF.ipynb)
 
