@@ -38,8 +38,18 @@ The visualisations reveal interesting patterns in reading and highlighting habit
 
 ## Related
 
-- [GoodReads-Analysis](https://github.com/DrKenReid/GoodReads-Analysis) — comprehensive analysis of reading habits from GoodReads export data (visualisation, NLP, ML)
+- [GoodReads-Analysis](https://github.com/DrKenReid/GoodReads-Analysis) — comprehensive analysis of reading habits (visualisation, NLP, ML)
+- [Enhance-GoodReads-Export](https://github.com/DrKenReid/Enhance-GoodReads-Export) — enrich your GoodReads CSV with genres and reading dates
+- [kenreid.co.uk/literature](https://www.kenreid.co.uk/literature.html) — reading stats, reviews, and quotes on my website
 
 ## License
 
 This project is licensed under [CC BY 4.0](LICENSE).
+
+## Author
+
+**Ken Reid** — Data Scientist, photographer, and avid reader.
+
+- [kenreid.co.uk](https://www.kenreid.co.uk) — Portfolio & blog
+- [@kenreid.co.uk](https://bsky.app/profile/kenreid.co.uk) — Bluesky
+- [@DrKenReid](https://github.com/DrKenReid) — GitHub
